@@ -1,6 +1,7 @@
 # Unity week 2: Formal elements
 In this Game I added 3 Lives for the spaceship.
 Plus a Bomb that kills all enemies near the spaceship, but this can be used only once.
+itch.io: https://amitay2022.itch.io/spaceship
 
 ## Credits
 
