@@ -3,6 +3,12 @@ In this Game I added 3 Lives for the spaceship.
 Plus a Bomb that kills all enemies near the spaceship, but this can be used only once.
 itch.io: https://amitay2022.itch.io/spaceship
 
+## Changes
+
+1. https://github.com/ItayHasidi/Game_Dev-prefabs/blob/master/Assets/Scripts/4-levels/HeartRemover.cs - a change to DestroyOnTrigger2D.cs, I added an array of GameObjects that represent the hearts of the player. And instead of destroying the ship on first impact I destroyed a heart, for three time. Nad only on the last destroyed heart does the game end.
+
+2. https://github.com/ItayHasidi/Game_Dev-prefabs/blob/master/Assets/Scripts/2-spawners/LaserShooter.cs : In this script I added two SerializeFields that represent the type of weapon used, the player can shoot lasers or deploy a one time use bomb that kills nearby enemies. In order to do this I added a string with the weapon type and a boolean field that represents wether or not the bomb has been used. After that i moved the spawning of the weapon to a seperate function, and added a simple if statment. 
+
 ## Credits
 
 Programming:
